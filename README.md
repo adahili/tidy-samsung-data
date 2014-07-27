@@ -9,3 +9,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Read the features.txt for the list of features and features_info.txt for feature information. The list of features is used as headers for the data set.
 
 The script merges the test and training data sets and extracts only the measurements (or features) on the mean and standard deviation for each measurement. This means that mad, max, min, sma, etc. will be discarded.
+
+The output of the script is a tab-separated data file named data.txt. The script stores in the memory a data set  named 'Data2' which contains the average of each variable for each activity and each subject.
